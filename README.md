@@ -14,6 +14,3 @@ eo_client = EvalsOne(api_key='your_api_key', sid='your_dataset_id')
 sample_data = {'messages': [{"role": "user", "content": "What's the capital of France?"}], 'ideal': ['Paris']}
 response = eo_client.add_sample(sample_data)
 ```
-
-## Parameters
-https://docs.evalsone.com/Faq/Samples/api_usage_in_programming_languages/
